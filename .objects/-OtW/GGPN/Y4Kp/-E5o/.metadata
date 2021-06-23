@@ -1,0 +1,14 @@
+﻿{
+  "Id": "-E5o2rlKqUOrxxzypE0-yA",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/-E5o2rlKqUOrxxzypE0-yA",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/Y4KpQinfKku61jw0_z2i2w",
+  "Name": "Type Into 'rappi'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-05-11T18:21:54.0967227Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-05-11T18:21:54.0967227Z"
+}

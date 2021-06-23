@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="tdZWgk1woEOTBfyog9z1OQ" Selector="&lt;html app='chrome.exe' title='Farmacia con Servicio a Domicilio en | Rappi'/&gt;" Url="https://www.rappi.com.mx/tiendas/tipo/farmatodo" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">07FFnMpKLdk6XYbWDSrO0-w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ad2557a4ff26b69bc293fdddd9d684ab.png" xmlns="">0vn5uVctLtEmcgzdg65ScvA</imageRef>
+</TargetApp>

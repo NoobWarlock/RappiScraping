@@ -1,0 +1,14 @@
+﻿{
+  "Id": "qNhHTRh5Y0q3Hq-rZRVctQ",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/qNhHTRh5Y0q3Hq-rZRVctQ",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/xPBNYWzl70OIcjD80AV7xg",
+  "Name": "Click 'Orden alfabético'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-05-11T16:45:13.338892Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-05-11T16:45:13.338892Z"
+}

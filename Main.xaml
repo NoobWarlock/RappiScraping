@@ -1,0 +1,767 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="820,6547" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:sg="clr-namespace:System.Globalization;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="42">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="33">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Rappi Global" sap:VirtualizedContainerService.HintSize="830,6382" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="vDtbFarmacias" />
+      <Variable x:TypeArguments="sd:DataTable" Name="vDtbFarmaciaPasillo" />
+      <Variable x:TypeArguments="x:String" Name="vRowFarmacia" />
+      <Variable x:TypeArguments="x:String" Name="vRowUrl" />
+      <Variable x:TypeArguments="x:String" Name="vStrFarmacias" />
+      <Variable x:TypeArguments="sd:DataTable" Name="vDtbTablaFinal" />
+      <Variable x:TypeArguments="x:String" Name="vStrTablaFinal" />
+      <Variable x:TypeArguments="x:String" Name="vStrFarmaciaPasillo" />
+      <Variable x:TypeArguments="x:String" Name="vRowPasillo" />
+      <Variable x:TypeArguments="x:String" Name="vRowUrlPasillo" />
+      <Variable x:TypeArguments="sd:DataTable" Name="vDtbTablaSubCategoria" />
+      <Variable x:TypeArguments="x:String" Name="vRowSubCategoria" />
+      <Variable x:TypeArguments="x:String" Name="vRowUrlSubCategoria" />
+      <Variable x:TypeArguments="x:String" Name="vStrSubCategoria" />
+      <Variable x:TypeArguments="sd:DataTable" Name="vDtbProductos" />
+      <Variable x:TypeArguments="x:String" Name="vStrProductos" />
+      <Variable x:TypeArguments="sd:DataTable" Name="vWrkbkResultado" />
+      <Variable x:TypeArguments="x:Int32" Name="vCountFinal" />
+      <Variable x:TypeArguments="ui:WorkbookApplication" Name="vMacroInsertarProductos" />
+      <Variable x:TypeArguments="s:DateTime" Name="CarpetaAhora" />
+      <Variable x:TypeArguments="x:String" Name="NombreCarpeta" />
+      <Variable x:TypeArguments="x:String" Name="vTxtEmailExitoso" />
+      <Variable x:TypeArguments="s:DateTime" Name="Hoy" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Globalization" sap:VirtualizedContainerService.HintSize="788,66" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+        <Assign.To>
+          <OutArgument x:TypeArguments="sg:CultureInfo">[System.Threading.Thread.CurrentThread.CurrentCulture]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="sg:CultureInfo">[new CultureInfo("es-MX")]</InArgument>
+        </Assign.Value>
+      </Assign>
+    </Sequence>
+    <ui:ExcelApplicationScope Password="{x:Null}" CreateNewFile="False" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="788,51" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_8" InstanceCachePeriod="3000" WorkbookPath="Productos Rappi.xlsx">
+      <ui:ExcelApplicationScope.Body>
+        <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="376,224" sap2010:WorkflowViewState.IdRef="Sequence_31">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ExcelDeleteRange DisplayName="Delete Range" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ExcelDeleteRange_2" Range="A2:H1048552" SheetName="Productos" ShiftCells="False" ShiftOption="ShiftUp">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:ExcelDeleteRange>
+          </Sequence>
+        </ActivityAction>
+      </ui:ExcelApplicationScope.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:ExcelApplicationScope>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Inicio | Rappi" sap:VirtualizedContainerService.HintSize="788,4687" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" Version="V1" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Global Rappi" sap:VirtualizedContainerService.HintSize="754,4471" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Extae Tabla Farmacias" sap:VirtualizedContainerService.HintSize="712,591" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ClickType="Single" DelayBefore="5" DisplayName="Click 'Farmacias'" sap:VirtualizedContainerService.HintSize="230,51" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/tipo/farmatodo?storeGroup=Farmacias" ContentHash="ibSTkHgiL0SXdBPSW04x6w" DesignTimeRectangle="229, 410, 76, 21" ElementType="Text" FriendlyName="'Farmacias'" FullSelectorArgument="&lt;webctrl aaname='Farmacias' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Farmacias' tag='A' type='' check:text='Farmacias' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFAAAAAZCAYAAACmRqkJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN8SURBVGhD7VZBaxpBFO6/CT3nJ3jwJOTSSy4JBEoIJZdNKdRTJAclB09pyMEQiFBMICgWDCkJUiwJgjRBJCIqBN3TiuCCoCB8fW9nxt3VhG6ypFC6Ax878+bNe2+/efNm3iy+XUCAlyMg0CcCAn0iINAnAgJ9IiDQJ/4TAuMo90FthPpR6JH5l8Mm8GsN4+FoHt0iEo4F/yb+BoFnTfYADA20G00blVNEHQsCuDFPYOt0TkkghESuhp4pMtNsFXG8kUbdmaUqi6tpLO/k0e6PoF/FkKmKNfUTDZmKAZN1hgO0czEs07rN1DV0l91n+iVEttMotwbCP9nuVfNIvFM2Yih1Wd5BaUfKwjEUqo5YfhxiU8bPMc/rPBbbMwiMXRlinttkJL6GgR5/zWskWU/ZMAcwRQ/mTRzZluhzELx2LJdz06sUNHdGDqGy59FvZPd66o/tjCey36f5MNuhI2wpDFCO8ziKksMsnWyr9cguN46ZN+74XkyYXTqJLUPEOfyFlGVT4A9H+AJ71vwh6jIoPachwrKwhkJLep4lkJrZKCKT1PBxNTQl0P6hEJI3AymkzEwtiRg28tAtPyPcffHqdwWFBzmkH1c6l10h611pZGeGwKOaNYdJB4UtURMjW3RilFmLQLWGdCRhezdEIiXBXVqMGfMEcobIlB0Pa8jw3I7cYWZf6TvlcxkoxxKKQP18xV4bn1k7o9s+o7Env6doc59+9HLN1omsfkD0k4boBm+Om8DET7F549t92yZByQWBC0jKMSYD6JUisgdRrDuyj+HtCD/xs4trF9Cd8idsuEhRci8EevKrCGwi69RxwU2gyn5FlML6eWdGvoTYQR7lBtVBmZ0YkR9HHfRGYFgFSQHsqmeA4xi+FoGe/GrTeqbn3k91MvdCNq4kaewmMOI8KSqjwqRjPXUUgRqyFS5jRVnzQoh+lzXyp7xkCB4vkRBSt2oLyAAVVZ1uWPAxtwSvRKBHv+snTTGm2tlr0U8bao2B0me24yZwMbyPu6GlII5no2NlmHXJUVMZuFeRY67nB/soPYix/s0uRR4JJPCV3pA7z42fBLtUeLn/agQSvPglohO5Jkx1+3LrN1HYVlk7QyDJItv8zLI0rcZPoiTZ4DY9wrO+qZkNeh456qBNYIAXISDQJwICfSIg0CcCAn0iINAnAgJ9IiDQFxbwG/eVYwv6aStRAAAAAElFTkSuQmCC" InformativeScreenshot="8ba9e219843ed86389423b3def4a3ce7.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/TSpJHN2OZ0O5E7Ocw90hZg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farmacia con Servicio a Domicilio en | Rappi' /&gt;" SearchSteps="Selector" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="Label 'Farmacias'" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Target>
+                      <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/tipo/farmatodo?storeGroup=Farmacias" DesignTimeRectangle="229, 410, 76, 21" ElementType="Text" FriendlyName="'Farmacias'" FullSelectorArgument="&lt;webctrl aaname='Farmacias' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Farmacias' tag='A' type='' check:text='Farmacias' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFAAAAAZCAYAAACmRqkJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN8SURBVGhD7VZBaxpBFO6/CT3nJ3jwJOTSSy4JBEoIJZdNKdRTJAclB09pyMEQiFBMICgWDCkJUiwJgjRBJCIqBN3TiuCCoCB8fW9nxt3VhG6ypFC6Ax878+bNe2+/efNm3iy+XUCAlyMg0CcCAn0iINAnAgJ9IiDQJ/4TAuMo90FthPpR6JH5l8Mm8GsN4+FoHt0iEo4F/yb+BoFnTfYADA20G00blVNEHQsCuDFPYOt0TkkghESuhp4pMtNsFXG8kUbdmaUqi6tpLO/k0e6PoF/FkKmKNfUTDZmKAZN1hgO0czEs07rN1DV0l91n+iVEttMotwbCP9nuVfNIvFM2Yih1Wd5BaUfKwjEUqo5YfhxiU8bPMc/rPBbbMwiMXRlinttkJL6GgR5/zWskWU/ZMAcwRQ/mTRzZluhzELx2LJdz06sUNHdGDqGy59FvZPd66o/tjCey36f5MNuhI2wpDFCO8ziKksMsnWyr9cguN46ZN+74XkyYXTqJLUPEOfyFlGVT4A9H+AJ71vwh6jIoPachwrKwhkJLep4lkJrZKCKT1PBxNTQl0P6hEJI3AymkzEwtiRg28tAtPyPcffHqdwWFBzmkH1c6l10h611pZGeGwKOaNYdJB4UtURMjW3RilFmLQLWGdCRhezdEIiXBXVqMGfMEcobIlB0Pa8jw3I7cYWZf6TvlcxkoxxKKQP18xV4bn1k7o9s+o7Env6doc59+9HLN1omsfkD0k4boBm+Om8DET7F549t92yZByQWBC0jKMSYD6JUisgdRrDuyj+HtCD/xs4trF9Cd8idsuEhRci8EevKrCGwi69RxwU2gyn5FlML6eWdGvoTYQR7lBtVBmZ0YkR9HHfRGYFgFSQHsqmeA4xi+FoGe/GrTeqbn3k91MvdCNq4kaewmMOI8KSqjwqRjPXUUgRqyFS5jRVnzQoh+lzXyp7xkCB4vkRBSt2oLyAAVVZ1uWPAxtwSvRKBHv+snTTGm2tlr0U8bao2B0me24yZwMbyPu6GlII5no2NlmHXJUVMZuFeRY67nB/soPYix/s0uRR4JJPCV3pA7z42fBLtUeLn/agQSvPglohO5Jkx1+3LrN1HYVlk7QyDJItv8zLI0rcZPoiTZ4DY9wrO+qZkNeh456qBNYIAXISDQJwICfSIg0CcCAn0iINAnAgJ9IiDQFxbwG/eVYwv6aStRAAAAAElFTkSuQmCC" InformativeScreenshot="58ba7996d7807f4924d8c5150b1c7977.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farmacia con Servicio a Domicilio en | Rappi' /&gt;" SearchSteps="Selector" />
+                    </uix:VerifyExecutionOptions.Target>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NClick>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="230,51" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="376,234" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'Farmacias'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(pgdn)][u(hk)][d(hk)][k(pgdn)][u(hk)]">
+                      <uix:NKeyboardShortcuts.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/tipo/farmatodo" ContentHash="nxzK9QAgtkCU0AgGqnNBJA" DesignTimeRectangle="219, 479, 96, 32" FriendlyName="'Farmacias'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-container&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;app-cpg-parent-store-page&amp;gt;div&amp;gt;div&amp;gt;app-cpg-parent-store-store-group-filter&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;span' idx='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-container&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;app-cpg-parent-store-page&amp;gt;div&amp;gt;div&amp;gt;app-cpg-parent-store-store-group-filter&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;span' type='' tag='SPAN' aaname='' check:text='Farmacias' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGQAAAAkCAYAAAB/up84AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATPSURBVGhD7VpBaxtHFO6/Kbn4InpwcrFJyEEmB0FEhC6tKAhjHF1knwQGixwsdFgwxCYH+WKDSA1BwYWYFEEJMTaCIItQYoJtKLExRapdKbiVEuGv783OrKTVSllqrarAfPCQ9s2bebPvm/dmYOebT5/q0DI6ogkZMelJSP2fS3ysXaB6XsZF5Q8tAxCOJceUY+sUcxZHQriT04BaBiccY6fYdxFS++tPq9Pflx/R/PwZwBWJxvVwJWLJMVXx5Vjb499BiMqM6kVFEqHhBTi2HGOOtT1TLEK4rinmNBneg2Os4t2+p1iEqOzglNIYDlT5as8SixB1mtLZMTyoLOHYdxHCDSx6Ax8mrqy49yFEY5jQhIwYNCF9UcaLmTH4fAGsv5Mqj3F9QvbXEA4GumXhJSrS5OuFJOSGH5mvhpA3SzThb+ELxfF42WhJtoiaNNFwj8ERki5KRTcqe2tI/Ghmznx6C8eXRay3Z5HKsgyNcbaLzMMAkttllDJmn/X9KkrZOKbZJjiLzE5ZjNt4v4lUx7hCbeGLfhnlInLpWdN/8HskMruoNGUbZUh+gfUJ5E2XdDYto5BpzcX4+RANOX+ec7eN89x6wXNCattxjHM7yfikH3d99DsXxzzroptmYNQY0Shi1M7/Y8+IkLT5PxJ6AN9NP8JT35l2N8aQerKKCP3eDQTEmGZ/OR7Bld+TTcvfxFQA929K+5lNnApSyshFWRdF7oyfq8jPcQljHfmeukU+xpCYmxU6njPj4IlftEcWqFIsxRFmH6ENHFtE98bgCOkoWS9xKhp/Q+YOT/42jJ2q0KBZRSHNEya9nRB+ieUtHPxeRa0Oi5BWgIDTZ1EZ6AdYf2/qcLkLQ/gJ4OkRK9z4raPwiIM7RoH8YNm8XjQDntjmfjZC3q3iHve/s4SCqsc18j3FNooQ1YdsrDlzBtJ835rP/TA4QngFyxQNB9dQ4rbyFmLcFqTVIYwllL4rQ1ornKEISb0idhTOaFWz7Q9EklQxlK3xhh5c+S3isciOJF63DY86LYZzElFiOgmpPI8KH+GNQ2GqoPQqQ/iZF834ZBSp7BZKR2U0XGQHY3CEOJWsHsFD/VekWG8nxDZGR5AV1Jg9yBO2rvwWYfB/Wsli8TjCRghlJ/uY/klmlETjVVLoFSGM2tEucsu0j8gyOx4wUHKxj3hLSJNeWqxCeqETqSNYZccrQlz55f2Abais7bVS5GDlthgnkuWg20oWzVP1VyUUzQ/IiaOxIoQPIGbZVntG7ZeE2f68RVgveEsI4XiDNmRu991CbNFA6qEfE7RJR+SLeUIIwY3fxr6B+8ImgMSSAWMuYAbcF0f+nEexEdI8xNMQP8tytJzEPGWAOHSQTmXIaZaf5X54dIgXj8xNPrXTXhud4Tkh4gi4ErVOQhOhJPIntBFyHw8JceWXUNlbRWyy7eQ0s4qCtZBthAgVHctn+HTFeiJjkQ4we+b8rZJl88120yvtx+neuD4hGgOFJmTEoAkZMbggRH+gGh76fKCq6k+4Q0ffT7j6ksPw0feSg74GNFyo7GBxvAbEorJEX5TzFhzbL16UU6KvknqF/3CVVInKFC3eiT0zlDgSwsJ1jTup05eW6wvHkmPavmfYpSchWv4f0YSMlNTxL6ryuUG0Q3DnAAAAAElFTkSuQmCC" InformativeScreenshot="c30912f08bbcf55dbc749c0b2fe8f45f.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/qaKlKULkpEKEKyYBve0v6w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farmacia con Servicio a Domicilio en | Rappi' /&gt;" SearchSteps="Selector" />
+                      </uix:NKeyboardShortcuts.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NKeyboardShortcuts>
+                    <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(pgup)][u(hk)][d(hk)][k(pgup)][u(hk)]">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NKeyboardShortcuts>
+                  </Sequence>
+                </ui:CommentOut.Body>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:CommentOut>
+              <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[vDtbFarmacias]" DisplayName="Tabla Farmacias" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Farmacia' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Url Farmacia' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='text' name2='Column1' attr2='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='h2' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="230,51" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="Rows" MaximumResults="1">
+                <uix:NExtractData.Target>
+                  <uix:TargetAnchorable ContentHash="e2t_fO56pUme6VNnEmsaBQ" DesignTimeRectangle="45, 245, 1288, 836" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-container&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;app-cpg-parent-store-page&amp;gt;div&amp;gt;app-cpg-store-type-items&amp;gt;ul' parentid='app-container' tag='UL' /&gt;" InformativeScreenshot="56fcb705478578c4bd1696777835b765.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/5sVLix3WQkyBiHr2ApHSTw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farmacia con Servicio a Domicilio en | Rappi' /&gt;" SearchSteps="Selector" />
+                </uix:NExtractData.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NExtractData>
+              <ui:OutputDataTable DataTable="[vDtbFarmacias]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="230,22" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[vStrFarmacias]" />
+              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[vStrFarmacias]" />
+              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="Fin Extrae Tabla Farmacias" />
+            </Sequence>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbFarmacias]" DisplayName="For Each Row Farmacias" sap:VirtualizedContainerService.HintSize="712,3746" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="SQ TablaFarmacias" sap:VirtualizedContainerService.HintSize="678,3625" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Sequence DisplayName="Rows Tabla Farmacias" sap:VirtualizedContainerService.HintSize="636,66" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="0" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="GetRowItem_2" Row="[row]">
+                        <ui:GetRowItem.Value>
+                          <OutArgument x:TypeArguments="x:String">[vRowFarmacia]</OutArgument>
+                        </ui:GetRowItem.Value>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </ui:GetRowItem>
+                      <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="1" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="GetRowItem_1" Row="[row]">
+                        <ui:GetRowItem.Value>
+                          <OutArgument x:TypeArguments="x:String">[vRowUrl]</OutArgument>
+                        </ui:GetRowItem.Value>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </ui:GetRowItem>
+                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[vRowUrl.ToString]" />
+                    </Sequence>
+                    <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="636,51" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[&quot;https://www.rappi.com.mx&quot;+vRowUrl]">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NGoToUrl>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Pasillos'" sap:VirtualizedContainerService.HintSize="636,51" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/1923256267-farma-ya-ciudad-de-mexico" ContentHash="fOa4z3SWPUOvoYXO26epjg" DesignTimeRectangle="120, 452, 90, 32" ElementType="Text" FriendlyName="'Pasillos'" FullSelectorArgument="&lt;webctrl aaname=' Pasillos ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Pasillos ' tag='A' type='' check:text='Pasillos' /&gt;" ImageBase64="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" InformativeScreenshot="21b3863a631a8d86b2b810060360ac7c.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/V-nSBeHcVUyJLmvRIWsOfw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farma Ya online a domicilio en Ciudad de México - México - Rappi' /&gt;" SearchSteps="Selector" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="Label 'Pasillos'" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Target>
+                            <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/1923256267-farma-ya-ciudad-de-mexico" DesignTimeRectangle="120, 452, 90, 32" ElementType="Text" FriendlyName="'Pasillos'" FullSelectorArgument="&lt;webctrl aaname=' Pasillos ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Pasillos ' tag='A' type='' check:text='Pasillos' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAkCAYAAAAAa43JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATcSURBVGhD7ZrtS1tXHMf334yNvRP2boytbHaUbI4hG3vjhiDOsbBhWYcp3bwrbdxmM3QivrgiRCitIIYMIpaJFKXOscUgoUFiQNLgiwTBgJAU4dvzOw+5N8lNbnNj0hXPgQ94Hu45uZ/7Ow/x5pWnT0vQdB8t/gXRUPx///yNmzeu4+PL7+PNN15Hz2uvap4T8kXeyB95dPLrKJ4ucOpQ4w3yWeu4TvzI4JeOF2vag7zaPVeJ15HeWeyRXxFPa5FTY835otb8ingd7d1BRX1FPO3CTg015wt5rhKvj4zdgTxXiXdqpOkM3sQHo0jtp5GpYWdhgNUPwFxP1tVl9qIIOfV1QfEkfmLrBDyVSiifCnjaX2L1S8jQ32dWXfmMCk6wc9O5v24wfD+NMn2MozUYLG/MRRGLRGGOUf0AQncpv4jQYP21ncCT+NA2iWcig6pMyj6wied/N2pvx8DmE9tDkhQPNhAecWrvjYr4/AYXv3JAGSCzTPVB7BQp1+gznj//A/HqpllSM0hOIJzGYfY6XdM+L7X4hDmKwDViDTn63Hbxh2uybhTh3ecRb68PYDNPZUBqQZT5zQ1kjuVsOEoiNh6UMyWJe7Ive5tyMY9UxIBP1vXcTYryvUWedxffh4lIEoWi7O84iwTr73PVH6PpeC54Eh9Yl1Zq0+N5Vj+PFF/Ta1Mem9ec+nO66UuIHfKLuBjfApMmsmLvoP5LeSaFCtJYoWvGNlCgLCunzTzH64Dc6pDoczktCuRMbC5+iNWraQdrBrJU3psXct3Gc8GT+J5eA2G2MdHmZLGEGbkm+6eWauoYZqNosG5azCAD5oM0xH2whzU2Won+4r8hGXF9mOGzjpIUL8UWt4Oi38EoMhSJT8Rm2pL4qbh40KU0Ylcv8fa+cTar1SGB2riN54I38Swih79Vy4xiqDINL7/9Fj7r+7AK33viBupRN12bSsitB9nDkksXsvir6sShyqX4QZaXkVk+Ykfb1UUWCH1W+xbEq1NbeXfWup4RfsyLUVgfdR/PBU/ih//MihFrUplF5JV338Fk8Dbm/piuYnryN3z6kc+hP3XTJWQeitmxMmfA36/qLfGxqo12FolTKpfiGb4vgrj3MI4cW3dVKmzRw2P1LYgXe5gtmiXmrui3uGXwfNPxXPAkXnwwS1QsEhfrHbspiuw7TPzEzwaufvM1x7gewPSdSR759f3VTPOG9Wz9jFjrp5+JFOu+FD+1xtfaxHJAtOlne439wbSy1LA9hafiI4TUw+5VD1pu+G7judCGeLsoGZU28Td++L7S/ruRr9oQzySvWjOMpnXmiI3Pv6BRiVpqouJkxTa7RGQW5v2k2CfYkXSG6lsRT/ljXs37I8EFFdTye4DreC68FOLplBHezspvwCydnSC1OC+vsyLMbz5CTkYlT6UsdkwvpxpGv4HYvlhyVCruRzFhW+6ajudCG+LZBzlU/4vJi2lvE//7r7/g1k8/ciZv32oi/mLiSbxvIY4iHZ1qyD0I8BNN0Bjnou2Q/E+ufODY30XEk3hN+1SJ1y9CukPdixD96q871L360y+7u0Pdy279847uUPfzDkJHfWdR0V4nntA/4esMTX/Cp9CRf77YI13hKJ6gtYguoF1YHzVbg3yRN/Kn1vRaGorXdBYt/oVQwjPkdNHlsxJ5vgAAAABJRU5ErkJggg==" InformativeScreenshot="90776d0be98d81ebfe70407a8a70abe6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farma Ya online a domicilio en Ciudad de México - México - Rappi' /&gt;" SearchSteps="Selector" />
+                          </uix:VerifyExecutionOptions.Target>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NClick>
+                    <Sequence DisplayName="Extrae Tabla Farmacia Pasillo" sap:VirtualizedContainerService.HintSize="636,490" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="230,51" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][k(pgdn)][u(hk)][d(hk)][k(pgdn)][u(hk)][d(hk)][k(pgdn)][u(hk)]">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NKeyboardShortcuts>
+                      <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="230,51" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" Shortcuts="[d(hk)][k(pgup)][u(hk)][d(hk)][k(pgup)][u(hk)][d(hk)][k(pgup)][u(hk)]">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NKeyboardShortcuts>
+                      <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[vDtbFarmaciaPasillo]" DisplayName="ExtraeTabla Pasillo" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column6' Name='Pasillo' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column8' Name='Pasillo Url' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column6' attr='text'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h2' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column8' attr='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="230,51" sap2010:WorkflowViewState.IdRef="NExtractData_2" LimitExtractionTo="Rows" MaximumResults="1" Timeout="5">
+                        <uix:NExtractData.Target>
+                          <uix:TargetAnchorable ContentHash="d8mRBVlJVUy38k_hQpcLZA" DesignTimeRectangle="29, 325, 1320, 1460" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-container&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;app-cpg-store&amp;gt;app-cpg-store-aisle-tree-page&amp;gt;ul' parentid='app-container' tag='UL' /&gt;" InformativeScreenshot="e071e7b10f07f57aa00b4db1f0773dd9.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/g8isTp6k6kODK1_778nsCQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farma Ya online a domicilio en Ciudad de México - México - Rappi' /&gt;" SearchSteps="Selector" />
+                        </uix:NExtractData.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NExtractData>
+                      <ui:OutputDataTable DataTable="[vDtbFarmaciaPasillo]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="230,22" sap2010:WorkflowViewState.IdRef="OutputDataTable_3" Text="[vStrFarmaciaPasillo]" />
+                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="[vStrFarmaciaPasillo]" />
+                    </Sequence>
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbFarmaciaPasillo]" DisplayName="For Each Row Pasillo" sap:VirtualizedContainerService.HintSize="636,2713" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+                      <ui:ForEachRow.Body>
+                        <ActivityAction x:TypeArguments="sd:DataRow">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="SQ TablaFarmaciaPasillo" sap:VirtualizedContainerService.HintSize="602,2592" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Sequence DisplayName="Rows Pasillo" sap:VirtualizedContainerService.HintSize="560,66" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="0" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="GetRowItem_5" Row="[row]">
+                                <ui:GetRowItem.Value>
+                                  <OutArgument x:TypeArguments="x:String">[vRowPasillo]</OutArgument>
+                                </ui:GetRowItem.Value>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:GetRowItem>
+                              <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="1" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="GetRowItem_4" Row="[row]">
+                                <ui:GetRowItem.Value>
+                                  <OutArgument x:TypeArguments="x:String">[vRowUrlPasillo]</OutArgument>
+                                </ui:GetRowItem.Value>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:GetRowItem>
+                              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_6" Text="[vRowUrlPasillo.ToString]" />
+                            </Sequence>
+                            <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="560,51" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" Url="[&quot;https://www.rappi.com.mx/&quot; + vRowUrlPasillo]">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NGoToUrl>
+                            <Sequence DisplayName="Extraer Tabla SubCategoria" sap:VirtualizedContainerService.HintSize="560,423" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[vDtbTablaSubCategoria]" DisplayName="Extrae Tabla SubCategoria" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='SubCategoria' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='Url SubCategoria' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column1' attr='text' name2='Column2' attr2='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NExtractData_3" MaximumResults="0" Timeout="5">
+                                <uix:NExtractData.Target>
+                                  <uix:TargetAnchorable ContentHash="0qchrj6p60yuRKjYuS4qCg" DesignTimeRectangle="29, 400, 360, 305" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-container&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;app-cpg-store&amp;gt;app-cpg-aisle&amp;gt;div&amp;gt;div&amp;gt;app-cpg-aisle-sidebar&amp;gt;div&amp;gt;ul' parentid='app-container' tag='UL' /&gt;" InformativeScreenshot="cc187ad0dca2da7f80f4c5133eb9d40f.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/B29JvrdGzkShdNogJzlQ7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rappi México: Entregas a domicilio en minutos' /&gt;" SearchSteps="Selector" />
+                                </uix:NExtractData.Target>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </uix:NExtractData>
+                              <ui:OutputDataTable DataTable="[vDtbTablaSubCategoria]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="OutputDataTable_4" Text="[vStrSubCategoria]" />
+                              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[vStrSubCategoria]" />
+                            </Sequence>
+                            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbTablaSubCategoria]" DisplayName="For Each Obtener Productos" sap:VirtualizedContainerService.HintSize="560,1838" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
+                              <ui:ForEachRow.Body>
+                                <ActivityAction x:TypeArguments="sd:DataRow">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="SQ TablaSubCategoria" sap:VirtualizedContainerService.HintSize="526,1717" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Sequence DisplayName="Rows SubCategoria" sap:VirtualizedContainerService.HintSize="484,66" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="0" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="GetRowItem_7" Row="[row]">
+                                        <ui:GetRowItem.Value>
+                                          <OutArgument x:TypeArguments="x:String">[vRowSubCategoria]</OutArgument>
+                                        </ui:GetRowItem.Value>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </ui:GetRowItem>
+                                      <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="1" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="GetRowItem_6" Row="[row]">
+                                        <ui:GetRowItem.Value>
+                                          <OutArgument x:TypeArguments="x:String">[vRowUrlSubCategoria]</OutArgument>
+                                        </ui:GetRowItem.Value>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </ui:GetRowItem>
+                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="[vRowSubCategoria]" />
+                                    </Sequence>
+                                    <ui:ExcelApplicationScope Password="{x:Null}" CreateNewFile="False" DisplayName="Borra Datos de Resultado" sap:VirtualizedContainerService.HintSize="484,51" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_6" InstanceCachePeriod="3000" WorkbookPath="Resultado.xlsx">
+                                      <ui:ExcelApplicationScope.Body>
+                                        <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+                                          <ActivityAction.Argument>
+                                            <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+                                          </ActivityAction.Argument>
+                                          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="376,224" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:ExcelDeleteRange DisplayName="Delete Range" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="ExcelDeleteRange_1" Range="A2:E3000" SheetName="Proceso" ShiftCells="False" ShiftOption="ShiftUp">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </ui:ExcelDeleteRange>
+                                          </Sequence>
+                                        </ActivityAction>
+                                      </ui:ExcelApplicationScope.Body>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </ui:ExcelApplicationScope>
+                                    <Sequence DisplayName="Pasillo Por Pasillo" sap:VirtualizedContainerService.HintSize="484,418" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NGoToUrl_3" Url="[&quot;https://www.rappi.com.mx&quot;+vRowUrlSubCategoria]">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NGoToUrl>
+                                      <uix:NClick ClickType="Single" ContinueOnError="True" DisplayName="Click 'Orden alfabético'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/belleza-y-maquillaje/cuidado-facial" ContentHash="j-g36weo1ESly2Qh9tp94A" DesignTimeRectangle="933, 347, 120, 21" ElementType="Text" FriendlyName="'Orden alfabético'" FullSelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' type='' check:text='Orden alfabético' /&gt;" ImageBase64="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" InformativeScreenshot="f726446c85133c921ce2d6729e2f6b4d.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/7W4-sClZskmlomNT9oqQKQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cuidado facial en Farmacias Benavides a domicilio con Rappi' /&gt;" SearchSteps="Selector" />
+                                        </uix:NClick.Target>
+                                        <uix:NClick.VerifyOptions>
+                                          <uix:VerifyExecutionOptions DisplayName="Label 'Orden alfabético'" Mode="Appears">
+                                            <uix:VerifyExecutionOptions.Target>
+                                              <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/belleza-y-maquillaje/cuidado-facial" DesignTimeRectangle="933, 347, 120, 21" ElementType="Text" FriendlyName="'Orden alfabético'" FullSelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' type='' check:text='Orden alfabético' /&gt;" ImageBase64="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" InformativeScreenshot="b8a04f63cc48fb2b798798cee926c068.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cuidado facial en Farmacias Benavides a domicilio con Rappi' /&gt;" SearchSteps="Selector" />
+                                            </uix:VerifyExecutionOptions.Target>
+                                          </uix:VerifyExecutionOptions>
+                                        </uix:NClick.VerifyOptions>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NClick>
+                                      <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(pgdn)][u(hk)][d(hk)][k(pgdn)][u(hk)][d(hk)][k(pgdn)][u(hk)]">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NKeyboardShortcuts>
+                                      <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(pgup)][u(hk)][d(hk)][k(pgup)][u(hk)][d(hk)][k(pgup)][u(hk)]">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NKeyboardShortcuts>
+                                    </Sequence>
+                                    <Sequence DisplayName="Extraer Tabla de Productos" sap:VirtualizedContainerService.HintSize="484,423" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[vDtbProductos]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Producto' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Precio' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='Descuento' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column3' Name='Descripcion' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column5' Name='Url Imagen Producto' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='app-product-market' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='app-product-info' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='app-product-market' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='app-product-info' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='h2' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='text'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='app-product-market' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='app-product-info' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='app-product-market' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='app-product-info' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='p' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column3' attr='text'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='app-product-market' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='app-product-info' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='p' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column5' attr='src'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='app-product-market' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='app-product-info' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='app-img-ssr' idx='1' /&gt;&lt;webctrl tag='img' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NExtractData_4" LimitExtractionTo="Rows" MaximumResults="0" Timeout="5">
+                                        <uix:NExtractData.Target>
+                                          <uix:TargetAnchorable ContentHash="IC5AhLkf5kKTUS8kDzjYyw" DesignTimeRectangle="419, 309, 920, 682" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-container&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;app-cpg-store&amp;gt;app-cpg-aisle&amp;gt;div&amp;gt;div&amp;gt;app-cpg-store-aisle-detail-page&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul' parentid='app-container' tag='UL' /&gt;" InformativeScreenshot="77a87593601d77eb5622b0a05cf1239a.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/zUEAjsQCM0KCwT2NhEkF9g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sinuberase Sanofi Aventis 48 Comprimidosbacillus Clausii 2 G en Farmacia sanborns Ciudad de México' /&gt;" SearchSteps="Selector" />
+                                        </uix:NExtractData.Target>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NExtractData>
+                                      <ui:OutputDataTable DataTable="[vDtbProductos]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="OutputDataTable_5" Text="[vStrProductos]" />
+                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="[vStrProductos]" />
+                                    </Sequence>
+                                    <If Condition="[vDtbProductos.Rows.Count &gt;= 1]" sap:VirtualizedContainerService.HintSize="484,505" sap2010:WorkflowViewState.IdRef="If_1">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <If.Then>
+                                        <Sequence sap:VirtualizedContainerService.HintSize="242,327" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Escritura de Tabla" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_3" InstanceCachePeriod="3000" WorkbookPath="Resultado.xlsx">
+                                            <ui:ExcelApplicationScope.Body>
+                                              <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+                                                <ActivityAction.Argument>
+                                                  <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+                                                </ActivityAction.Argument>
+                                                <Sequence DisplayName="Escritura de Datos" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <ui:ExcelWriteRange AddHeaders="False" DataTable="[vDtbProductos]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_2" SheetName="Proceso" StartingCell="A2">
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                  </ui:ExcelWriteRange>
+                                                  <ui:ExcelWriteCell Cell="B1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_1" SheetName="Auxiliar" Text="[vRowSubCategoria.ToString]" />
+                                                  <ui:ExcelWriteCell Cell="B2" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_2" SheetName="Auxiliar" Text="[vRowPasillo.ToString]" />
+                                                  <ui:ExcelWriteCell Cell="B3" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_3" SheetName="Auxiliar" Text="[vRowFarmacia.ToString]" />
+                                                </Sequence>
+                                              </ActivityAction>
+                                            </ui:ExcelApplicationScope.Body>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </ui:ExcelApplicationScope>
+                                          <ui:ExcelApplicationScope Password="{x:Null}" AutoSave="False" CreateNewFile="False" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_7" InstanceCachePeriod="3000" Visible="False" Workbook="[vMacroInsertarProductos]" WorkbookPath="Rappi Scraping.xlsb">
+                                            <ui:ExcelApplicationScope.Body>
+                                              <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+                                                <ActivityAction.Argument>
+                                                  <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+                                                </ActivityAction.Argument>
+                                                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="376,151" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <ui:ExecuteMacro ContinueOnError="{x:Null}" MacroOutput="{x:Null}" DisplayName="Execute Macro" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="ExecuteMacro_1" MacroName="InsertarProductos" />
+                                                </Sequence>
+                                              </ActivityAction>
+                                            </ui:ExcelApplicationScope.Body>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </ui:ExcelApplicationScope>
+                                          <ui:ExcelCloseWorkbook DisplayName="Close Workbook" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ExcelCloseWorkbook_1" Workbook="[vMacroInsertarProductos]">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </ui:ExcelCloseWorkbook>
+                                        </Sequence>
+                                      </If.Then>
+                                    </If>
+                                  </Sequence>
+                                </ActivityAction>
+                              </ui:ForEachRow.Body>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:ForEachRow>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEachRow.Body>
+                    </ui:ForEachRow>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="tdZWgk1woEOTBfyog9z1OQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVDhPtZNNSsNQFIW7p6xFRJ1VHdnEhrbUH3QDgmuQglgQUYf+dAU6kmLRgUOxFIdVm7R8vvOeqSZ0EA1e+ODk3nMPL4+kRNjwDB3D2EBO5NWOpwCJWaY8dBQQZ5q/IVbArEFu/iGgWof6BjS3nRbS6kln/N8BGq7XYG8fbm7h4REOjxzS6mkmz4+gkn3Y2oWDFpycwkufaUWRIynN5JFXO2bXnaDWhMtriOMvp6u37p0lVfJcXLkde4Lk+Js7TM7OiXs93u+7vB63eVpeskh/mJ5m8sibvEbqDsZBlaHvM1gp87wwR39x3iI9WC0zDAImQZi5gyRgGhIyWvMNFaJKYLHa9LLLIh3wBxRQ+FMu/DMV+J0b3ifMG/ojFMBIrwAAAABJRU5ErkJggg==" InformativeScreenshot="ad2557a4ff26b69bc293fdddd9d684ab.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/fHcG4y4eNUaUYBi-bqnoVQ" Selector="&lt;html app='chrome.exe' title='Farmacia con Servicio a Domicilio en | Rappi'/&gt;" Url="https://www.rappi.com.mx/tiendas/tipo/farmatodo" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <Sequence DisplayName="Crear Carpeta" sap:VirtualizedContainerService.HintSize="788,770" sap2010:WorkflowViewState.IdRef="Sequence_33">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_5">
+        <Assign.To>
+          <OutArgument x:TypeArguments="s:DateTime">[CarpetaAhora]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="s:DateTime">[now()]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_10" Text="[CarpetaAhora.ToString]" />
+      <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_6">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:String">[NombreCarpeta]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:String">[CarpetaAhora.toString.Replace("/", "-").Replace(":",".")]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="[NombreCarpeta.ToString]" />
+      <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="434,79" sap2010:WorkflowViewState.IdRef="CreateDirectory_2" Path="[&quot;C:\Users\TheTy\OneDrive\Documentos\UiPath\Rappi Scraping\Scraping\&quot; + NombreCarpeta.ToString]">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:CreateDirectory>
+      <ui:CopyFile ContinueOnError="{x:Null}" Destination="[&quot;C:\Users\TheTy\OneDrive\Documentos\UiPath\Rappi Scraping\Scraping\&quot; + NombreCarpeta.ToString + &quot;\Reporte Scraping.xlsx&quot;]" DisplayName="Copy File" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="CopyFile_1" Overwrite="False" Path="Productos Rappi.xlsx">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:CopyFile>
+    </Sequence>
+    <Sequence DisplayName="OutLook" sap:VirtualizedContainerService.HintSize="788,556" sap2010:WorkflowViewState.IdRef="Sequence_34">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:ReadTextFile Content="[vTxtEmailExitoso]" DisplayName="Read Text File" FileName="EmailExitoso.txt" sap:VirtualizedContainerService.HintSize="384,79" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+      <Assign sap:VirtualizedContainerService.HintSize="384,60" sap2010:WorkflowViewState.IdRef="Assign_7">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:String">[vTxtEmailExitoso]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:String">[vTxtEmailExitoso.Replace("[BODY]","Ejecución de Robot Rappi Scraping Exitosa. ")]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <Assign sap:VirtualizedContainerService.HintSize="384,60" sap2010:WorkflowViewState.IdRef="Assign_8">
+        <Assign.To>
+          <OutArgument x:TypeArguments="s:DateTime">[Hoy]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="s:DateTime">[Today()]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:SendOutlookMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Account="jc@jobot.mx" Body="[vTxtEmailExitoso]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="384,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="True" IsDraft="False" Sensitivity="Normal" Subject="[&quot;Ejecución Robot &quot; + (Today().toString)]" To="jc@jobot.mx">
+        <ui:SendOutlookMail.Files>
+          <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+            <InArgument x:TypeArguments="x:String">["C:\Users\TheTy\OneDrive\Documentos\UiPath\Rappi Scraping\Scraping\" + NombreCarpeta.ToString + "\Reporte Scraping.xlsx"]</InArgument>
+          </scg:List>
+        </ui:SendOutlookMail.Files>
+      </ui:SendOutlookMail>
+    </Sequence>
+  </Sequence>
+</Activity>

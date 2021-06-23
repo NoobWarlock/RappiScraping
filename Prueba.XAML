@@ -1,0 +1,353 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Prueba" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="NumberId" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:Prueba.NumberId>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Prueba.NumberId>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>647,2505</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Prueba_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="72">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="64">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Prueba" sap:VirtualizedContainerService.HintSize="628,2340" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="vNombre" />
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="586,51" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="518,264" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Crear Carpeta" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="s:DateTime" Name="CarpetaAhora" />
+              <Variable x:TypeArguments="x:String" Name="NombreCarpeta" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="s:DateTime">[CarpetaAhora]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="s:DateTime">[now()]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[CarpetaAhora.ToString]" />
+            <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[NombreCarpeta]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[CarpetaAhora.toString.Replace("/", "-").Replace(":",".")]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[NombreCarpeta.ToString]" />
+            <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="434,79" sap2010:WorkflowViewState.IdRef="CreateDirectory_1" Path="[&quot;C:\Users\TheTy\OneDrive\Documentos\UiPath\Rappi Scraping\Scraping\&quot; + NombreCarpeta.ToString]" />
+            <ui:CopyFile ContinueOnError="{x:Null}" Destination="[&quot;C:\Users\TheTy\OneDrive\Documentos\UiPath\Rappi Scraping\Scraping\&quot; + NombreCarpeta.ToString + &quot;\Reporte Scrapping.xlsx&quot;]" DisplayName="Copy File" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="CopyFile_1" Overwrite="False" Path="Productos Rappi.xlsx" />
+          </Sequence>
+          <Sequence DisplayName="OutLook" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="vTxtEmailExitoso" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ReadTextFile Content="[vTxtEmailExitoso]" DisplayName="Read Text File" FileName="EmailExitoso.txt" sap:VirtualizedContainerService.HintSize="384,79" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+            <Assign sap:VirtualizedContainerService.HintSize="384,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[vTxtEmailExitoso]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[vTxtEmailExitoso.Replace("[BODY]","Ejecución de Robot Rappi Scraping Exitosa. ")]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:SendOutlookMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Account="jose.atcalderon@outlook.com" Body="[vTxtEmailExitoso]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="384,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="True" IsDraft="False" Sensitivity="Normal" Subject="[&quot;Ejecución Robot &quot; + (Today().toString)]" To="jc@jobot.mx; mp@jobot.mx; jb@jobt.mx">
+              <ui:SendOutlookMail.Files>
+                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                  <InArgument x:TypeArguments="x:String">C:\Users\TheTy\OneDrive\Documentos\UiPath\Rappi Scraping\Scraping\27-04-2021 10.22.37 a. m\Reporte Scrapping.xlsx</InArgument>
+                </scg:List>
+              </ui:SendOutlookMail.Files>
+            </ui:SendOutlookMail>
+          </Sequence>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Farmacias Benavides online a domicilio en Ciudad de México - México - Rappi" sap:VirtualizedContainerService.HintSize="586,2066" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="552,1850" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Pasillos'" sap:VirtualizedContainerService.HintSize="510,166" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515/catalogo" ContentHash="lTlPMLVpgUOtJNFThQ3B2A" DesignTimeRectangle="286, 210, 90, 32" ElementType="Text" FriendlyName="'Pasillos'" FullSelectorArgument="&lt;webctrl aaname=' Pasillos ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Pasillos ' tag='A' type='' check:text='Pasillos' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAAAkCAYAAAAAa43JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUcSURBVGhD7Zr7UxVlGMf7b5qm6Zdq+s2xyzTFkF2mLBtzdCqdUhlLA02ylEotBCu00UgDE7ugXAwsMWVqnDQNzBhSQAxkMK4mIPfLE59nfLfdPQvbwjmHGvY7853Dvtd9P/u8l8OeWyTUjCgEP0OaEPz5c+dk88a35ImEh+SeO26Xu267NfS/NLzgBj84eskTPBW8Ggw9NcPTrQjwK5e+4Fk59PQMV7sc4MNIj63tkW+BZy3yKhw6ujZrvgU+jPb42ES9BZ5d2Ktg6OgazsgCHx4Z42M4Iwu8V6HQsTEKDP7DbelSc+F3qb140eG8nM90Gh0vK4vIq/zlrLy0ZLFne7PRKDD4UydPytjYmPT390vvjRvS19en13U1NZKavEZ6urtlZGRE8/Dg4KB6V9ZHnu3Fw8WHDsro+D1daWyQJQuelr27d0lpcZFsXL9Og+XAvlwpLjgkq1cs96wfbaPA4H8+9ZMMDQ1J9sc79XrD2hQFXH+pzvH3ROXtfvG5hdJw+bL1kIx5iBtSkiPKT9UGfHNTk4Ln/lDRwXydia0tLRPeYyyMZhS8GbR9Bg2Mf6LOzg55LWllRJ1o+H8NPv+LAwqaJaS3t9cBvrGhQf/Gv1ZU+IK35xORV5ubZXR0VL7K269pRD+zgLb/unZNSooK5cfycr02Zfbt3SPtbW2OMnPuvlPzKEN6ddVveu0HPuHeuVJ6uFjboV5nR4e2Rzr5fv35GQUG/8OJ4zdrOHWhulrWvrJKuq5fv5nyj4hiNmV3W16D5ub/qK/XeoB5fc1qq01mBvsFy0ZHe7umUSYrM0P7YL+5VFur5Slb9u0RbZMyyMzEycDPfyRRDwSINmiXT8yD4/78+vMzCgx+2eJFUpj/tW5OxocLChQ6+Tu3ZzrycO6n2Z7RYB80M2hT6nop//6YXg8ODMiO7RnWgya6zOZHe+Qj4BmwZ0+f1ny+HRKlPMDnFz4bCHxO9icyPDws3d1dkv7uO1oe0ES2KePXH2mTGQUGD8DkVUnWUoKJSjMNH547RxY8/qjD8x58IKIdbAbtFqcilhL6YolBR4+UOuqadCDwwLq6ujTqWv68qpHHCcuUDQKeUxs6X1lp1cfMaEQg+PXnZxQY/HclJdqhW5zVE++/TzK2bpHdO7IczsrYJs88Ni+iLTNoQLN3MDv2jB/1Fs1/yipjIH1TWOioCxgEPK7ZiE8cK9PIYyniHoHIwwsCnvtAJprd/dGmX3/2el5GU9pc7aBYGpj2DIbIzhwH/97baeM3tkKd9kaqTlUi392We9DufGxA1NfV6fpLGlObpQABj4fLusyxkXxmIBse3ymIxCDg2YjZ2NtaWyVp2VItD2ROWWbD9+uPtMmMpgTeDoqlhvXPDv7NdSlW+VeXvzwt8KyzbGKIgfEliI3tRk+PpgFva9omPVlxH8zIo6UlGgxEI/CCgOea5QOZcfGJzPcAv/7cY3Ab/efB47zcHF1TEdOa/2lXnDmj18Bzl0E8JNLICwKefN4WsabTF+KzuqpKDxbk+/XnZzQl8Ey5piuNOt3YyTkF2MF/kP6+Lgc4Y8vmCcHPVqPA4L/c/7k+XaLcbv45xomGaQhou4H/ZGKCZ3uz0Sgw+NDTN7LAhy9C4uOIFyHhq7/4OOLVHxuhV8HQ0TWckQU+/HlHfBzx8w4URn1sbaIdOcCj8Cd8sfGkP+EzCiM/urZHupEneMRaRAV24fCoGczwghv8zJru1oTgQ8VWIfgZkcjfiMkeaz0R7AYAAAAASUVORK5CYII=" InformativeScreenshot="acbc61116067f0fc55f4a764893cf014.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/4GE7nRn2zEmR4oLeWQh8iA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rappi México: Entregas a domicilio en minutos' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Descuentos Exclusivos'" sap:VirtualizedContainerService.HintSize="510,166" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515/catalogo" ContentHash="mDQCMnpVskSWw2HvnVjRrg" DesignTimeRectangle="45, 396, 268, 26" FriendlyName="'Descuentos Exclusivos'" FullSelectorArgument="&lt;webctrl idx='1' parentid='app-container' tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='app-container' tag='H3' aaname=' Descuentos Exclusivos ' check:text='Descuentos Exclusivos' /&gt;" ImageBase64="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" InformativeScreenshot="528b8bccb4e133e92bf3811342c54248.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/v1vrwRxlwk-3GkQKEbyOQw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rappi México: Entregas a domicilio en minutos' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Descuentos Exclusivos'" sap:VirtualizedContainerService.HintSize="510,166" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/el-verdadero-ahorro-esta-en-farmacias-benavides/descuentos-exclusivos" ContentHash="dK1rp__YXEaJR7c3k3bpHQ" DesignTimeRectangle="31, 435, 354, 41" ElementType="Text" FriendlyName="'Descuentos Exclusivos'" FullSelectorArgument="&lt;webctrl aaname=' Descuentos Exclusivos ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Descuentos Exclusivos ' tag='A' type='' check:text='Descuentos Exclusivos' /&gt;" ImageBase64="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" InformativeScreenshot="8d43c028ca500879a340b9c28e6489b2.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/okuac4zDIUCUq48RRGQUMw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farmacias Benavides online a domicilio en Ciudad de México - México - Rappi' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NNavigateBrowser Action="Refresh" DisplayName="Navigate Browser - Actualizar" sap:VirtualizedContainerService.HintSize="510,81" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NNavigateBrowser>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Orden alfabético'" sap:VirtualizedContainerService.HintSize="510,199" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/el-verdadero-ahorro-esta-en-farmacias-benavides/descuentos-exclusivos" ContentHash="mF9EF7uB_kirg2HSTfEzdw" DesignTimeRectangle="933, 347, 120, 21" ElementType="Text" FriendlyName="'Orden alfabético'" FullSelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' type='' check:text='Orden alfabético' /&gt;" ImageBase64="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" InformativeScreenshot="d4539363c44417a0de856fe914edb09a.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/qNhHTRh5Y0q3Hq-rZRVctQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Descuentos Exclusivos en Farmacias Benavides a domicilio con Rappi' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Label 'Orden alfabético'" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/el-verdadero-ahorro-esta-en-farmacias-benavides/descuentos-exclusivos" DesignTimeRectangle="933, 347, 120, 21" ElementType="Text" FriendlyName="'Orden alfabético'" FullSelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' type='' check:text='Orden alfabético' /&gt;" ImageBase64="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" InformativeScreenshot="2cb43137a51a444011ee5eea839fc47d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Descuentos Exclusivos en Farmacias Benavides a domicilio con Rappi' /&gt;" SearchSteps="Selector" />
+                  </uix:VerifyExecutionOptions.Target>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Nombre' Sort='None'&gt;&lt;Format xsi:type='TextColumnFormat' /&gt;&lt;/Column&gt;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='app-product-market' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='app-product-info' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='h2' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="510,166" sap2010:WorkflowViewState.IdRef="NExtractData_1" MaximumResults="0">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable ContentHash="h1aFOJoHu0a9RLBq51RoDA" DesignTimeRectangle="419, 409, 920, 682" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-container&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;app-cpg-store&amp;gt;app-cpg-aisle&amp;gt;div&amp;gt;div&amp;gt;app-cpg-store-aisle-detail-page&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul' parentid='app-container' tag='UL' /&gt;" InformativeScreenshot="2931768e6565022d0ebc0a7fb5ba259f.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/fH7kyaCQuk62Et_HNwRw4g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rappi México: Entregas a domicilio en minutos' /&gt;" SearchSteps="Selector" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExtractDataTable]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="510,572" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476,451" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="asd" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="0" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="GetRowItem_2" Row="[row]">
+                      <ui:GetRowItem.Value>
+                        <OutArgument x:TypeArguments="x:String">[vNombre]</OutArgument>
+                      </ui:GetRowItem.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:GetRowItem>
+                    <uix:NClick ClickType="Single" DisplayName="Click '50%OFF en'" sap:VirtualizedContainerService.HintSize="434,166" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Right">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/el-verdadero-ahorro-esta-en-farmacias-benavides/descuentos-exclusivos" ContentHash="quPr9pgtEEaiN6Yk1BI9sQ" DesignTimeRectangle="459, 595, 136, 42" FriendlyName="'50%OFF en'" FullSelectorArgument="[&quot;&lt;webctrl tag='H2' aaname=&quot;&amp;vNombre.ToString()&amp;&quot;/&gt;&quot;]" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIwAAAAuCAYAAAD6FPHbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA5WSURBVHhe7VxtS1xJFt5/EwZCGJAI7RAwJBhIUBAUpfNBRWhEVAQVIRcCNvnQ4ocGoRU/tAg2iLqIwYBi1iCuGbPOuupKoxHtWVHXhXYd0kPAhsCZ59TLfesXbeMmJnsfuGDfqntv1amnzkvVKf9EHjwUAI8wHgqCRxgPBcEjjIeC4BHGQ0HwCOOhIFiE+fSBjvf3aGc7nnEljj6oSgqpQ0rs4v7+IaU+qXsa50k63t1zPnOOd/O9gw+UVrdMiPr4DspPU+qeDamjLG1C3WPUzVf2JSHbgf6dnKs7eZBKQnZoY9JV92OO+zcMFmFO5il47xYV/ZB5+brn6ZSJ8SlJmyMtVGYvf2TQ9LYiR3KFIk912U9kTO1R+tM5JaY6qBS/g68OLcJ83KPloRaqsr8LddrCM5TQA47vLXTfsZVb9Xr/8j532ZukesH/FumjFYq2/mT79h1qCi/SMY85JsJq1JKVv0f2K/UuJPrcNgbZyNcIpLcGyY/7DdF45qS6QcgkTLVB0bEYjZvXJM0u8cATnb4NywF+1EKRkRiNhgJSILWDtJk6p+OpFip92AEC7dHqQB35KkK0vDVPvY9AuuYYJT6qb6X2aLr9rhCkr9YQ7xqPDVKwXt0LDNPmGeqZhKmk4JCtTRMztJo4yl128AVmKQg/3crff0DGwAwtv56kcD3/xsSYO6TTN0EqR1lwbJFW5wapqegWNY3E6b/fG2HKXyxKbeIGBm/5xQMIpI5Gt5RGgRnbHKgUgxZZg0odC1DpkyAtwxztxALku99CvZ2PZfk7baKgcSZayAfh+ENqNmrgG6sDNagvhZvWhLln0MKJqqORrywb0NadlyFquy9nPA80a7MdJiagB8z/AhOhp0a0j+uVdw7T6lEmAdP7k9T2I8p7LHmlNtQ7+pdpJVJJvsowJhIKzg8FuUrbZ2j3r98ZYXyNIYr2GWS0t1BXJ2b/y3U6ZXl9jNNoPYRYrYSgcPo2hJkEAUzs0e9HeAe0iRwQCLO+RmggQUItc8zM8UaU80AfqXt2wKyFn6CctdZv10QYJstIQLarsoMi0WGKdGNA+Xej1GZ6wESdihYKDw1Sb0CaG18gRjsuvyi1DY3SDfm8scysNjdNIxv0fgITpjhA47vnlOY+Vd6iqtAK/evn780kscCKK6mtNUANajY2Da1T6rd1iqDTRY020wJkdJQd4o112txaofFOCLy4hab3bTM0uUi9/F4Mgv09JjAbZztBhOIOmj3QZucO+QMgMJO4vYOCI2hPWpurLGUuDZk+miGDJ4PdLELT7UAjChPyOmkR5imIqrSOaEs3m8kaGt3O1DIOoO5CD2tg1GUNDJJEeYLxO/m6B1MN8nw/PszZOo33dJDRZ3M6cS/KTuxDmJlfL0kYhdMlNduGVoT3nzjAoPBAasI0T1Ii2xgIzYFBchOmEYRolVcGYdxlLsLoQSprDQs/Z3piEhdMTx+0AO77B6BFVT/8/fbnYT7H6vCNxxQ2TWo2oN5LQ2jTKrs25egQE2f5XdyM3L4fwuhw2B4aQpWvhuGD3IZq/efGhSbJ7KgmWkkNddVbUYTwWZJxitbiN5Mwmyk5Q6TFxOTvXJNJYvJyG4se1ZnEMi9opQic1N+zDhgThrVQPsKgzlxQkMDXCO10QYCWWpOBg5sYljn7RgiTPpihLnjypZ0zliMqzIM127XTO67VMzu9Q+ykstPrdmrvUtvzFir/EWVLMFOvIdRiPLvLDjHPWghtYMXpYCtfg2d9A2a9qUU+kzDp3Rg13WYfwu7QI6p7xeE+BikWvxphOHQegqOP53yBQVq9RDSvnWVfKzSsqanR7yjL5K6IsG4ybBpGkYOF1jNMs3MzNB6qE8Io7ZYkYm3Cs6CoArOSw+owCMG/2UHV0QY7vjA57C+sLoXJX1xDUURQHJL7SxBhMdlYAyn7XtUeptGpGZqdiglHVGgjaBch/HykKMTp5b49Y02HEDg6T5vbcdpEqNtWgm/Bx5qFj5XdJOQmTPpkhUbblfa8rUJ7YepwvY5njzQZNjlXdUsTacrxUQ6te4NgEQYQQuhkLSIHky9ffRhhstYoSdqMyhll1uF1FzPMxowL86AzSXCP1yrUegtfZSCeOavO4jT9XBHEdlV1x2hTm8XrIgwjuW4NsL5KAjT6Dr4VigsjjNROOvTOuOqHaSebQ68g5NztlHNRddCS4w2GgzACn87p9EAtuWdb+gfSZzAxYhneVQ6TcrwftxxchnD8EDVt53hXEt/i8i08l2VpXSy7u7+jkK8sF8ztBH7O/jm1NJ9wLc2nk7wNkrltYcogy+Xof04gYtJyLrAPXxOZhPHgIQ88wngoCB5hPBQEjzAeCoJHGA8FwSOMh4LgESYnzsX+EC+o+ftypHzcZPAC4XO5GRpZkmtN1wGPMFlxTsdznAB1i6o4Uy7PItyNRipO05wxcFuutl8HPMJkw8ki9XJOTj1nEqp73yo4F6fi+vqSSRid4O1arUxtDFNbyV1qiq5TKrVHC9EwRSfW86hqVukhMp7Ztha+JD59oMTrYeptryN/4yCt/HzJ9vMOfb/KIlTbAemTPXNVNyORPV9CPMNcOf96Cd4yXfQOdblSKq4CizC8D6R2Xs39jUrD3N8Qm4esovtW6BSs7X2I8lw5LQzeyRaC5x3qLy8oKSTux2NqC83QP95csv3QLkGUmclWZj+UTFon5W4+76vlS4gH0vvz1FttK8fVxDv0WcSh97JkfrS6aQfnEbHWu4o8U+sU5XbkencBMAmjBVwaGKSFd+u0PBaUHagIZW7bn91wwrCW6JO5xNGNLBt6edqvc2esBCdoiLUZGu/vkARUhMmfEI/HzCTxO9TQMyiT3AV57pJhPz2hYBLmhwdZTj1YqRhXkqcpj0tkDl4AkzA7Uc5rkemKAvjIzkSQjM6QmDWO3dwMgaNDS8NkcOKT6NRjCkZnaPoFN9LWQTYFA7ajJSV11MtmQb1D7gw/oCAGIKzyaVnAbf3zDscztTtPkVa928sDEqPZsQ4M2B0ypn+hP7eq9+urOkx//1u+9mtwG2SGnZXfI6HzhQRhPl6UEA95qRyc8p55U6PwO4wSaC97zpGCRRhXThKD86ADqi92efKOf6jO1HJlAYzVK5hetNOdzC8JZxvfK8IkjN6uL+uM0WYWW5uPMKdvVJ4MGtTQ3EJdzTXKHNg6yDNO5YGUt4ZodMQ6VuIPc+c0YeRz5c1Big6FqEuoYXyXE6oggPS+zM8VdeoD1MW5xzoXWRBmkxaHOshfLO9V1beItNP3v1yCMKZWzJyJDsJgoC7KPvw3NLYgsF2bnEMGzXjuCbS2zhtWsBNGyMz2/dSaq4zliQhovJk1GO5VyEzCtkr1G5ebMLlSQwuF5cNwA2z5Iv7OME0v7ZkpADkJc6bZ7wzdUtsx6hKDJjuoVX0DJ5TrjvBaQTe+WcSJ4nBSFWEcmXHadldwUhXPYtaE7MDFrfeYCVlqgOBfCA2A986qM0r5NaQCq25OSRXtsRe4CJO8KL95g359yVmHP1Hvkm1G58nh0c9WtRvUgO/4+1dk/7gvIbTpXoCCQqs65Vn23Bb2n6Nun/S3MgijUkObro0wDAgs8XaSos9qTOe3rBNCxSzKKfADddpAO4MaLJznTEDuIKcgyoFuCg0TH44TmWljMYoIkj6g8NKxIozr5KLIUFNCPuDzPfhWhsBhEqd4gD6fMKaG2fo6hGkYmKdpzg58aNDyybl54qEKjvusIINdnlkyAbeHqQHvcROGfVQ2XY7c6yvASRgb0hDKuMiWcx7DcAv8fQIdgibxtbvsLs9W4WhxBxFRCPsOAj5lM+JKxBZ+kjwIlyEEu5ATSpvdD9KyyxQfzxkg+WcShn2YCelHhd86P/ClTFIDwv5jEZFCi07EaZMPBDKB1w5VNqNdnll8LX3AzkEY3S8Xga8AkzDS2XN68HIQpBpzJEnbBf4fNdvcpwAQuor7akaYTpddgHpghaN4CcIcoX4PayRrjUQAqlieCfpcwkjVzfX46Il9XcVBGJvTmyshXji9eI/9ZCS/Q5yPyuP0cvtSIKQ4dXG/TvhnfJAukdLaT8lTaDB5ysDiLIghNK2LMNDSC6y1fsw0tYXCJEwaPkcbvPqiJwaNL63TzsY8RQMYKDWAuQXOmf7yFICvNkijcyu0uTRJkYDO5eUOopF6xbEkQJFXeP82QvcRFao2DtMOnKULCQNCpt7JAeUIKzw2T6trizT+ggeKv/X5hDHXLKqdaxYOwuCZCxPizbD6LjW9gBnmsLpW/nZoHQVH+xwBgO6TnTAwVSfzsg/Qhl39k7S8tkILI4YZgToIo0+1ou0Z/S0QNpMEP+B1iBqgzmRD5aUXmvIK/CMYrJwtffEhe3nUVBEG4OOlQRX1mPU4yVwM6uUIwzN5Z8oSjLg4PH/O56GvgTBCffMsxcBOWfbeTRhuV96EeIAjul5zqUFeDfq/O7jgaB//Zt+FTzVoze0iDON0DYEF+4/m+0GeHkSI+NskjKn5sq3vFI5MH0YkQ/MyuOtQmz1JGo0Q/9Nl37kLaiZYq2VysaS+e+hc2eRn9/Uyu3P7IZ0j4TpbsreViI767HiKJfo9+BfyY/wMf9tM9L5E+00gYhxl7QrHc0ERTv6Pm8ytgZwJ8Rq8NSD+7476di7Y28dQWwr27znkqesjENDjxVsP2hTyija3J7U1LH6XPcs0g1dBTqf3/x3p3Uky+Ehv7VfaC7sIaguDj7SYZ8FZmwj3AA7zy0P6fRdaiuvUhq6tDx5h8oBNSuRZB/WOuE5o3gSAHOJfqrApuldDbbxw95RdAPzmg4DHcBP6DTJ6sv+7kqvCI8y3DCbN3CAZ1exMgyiIQptCk1lX6q8LHmE8FASPMB4KgkcYDwXBI4yHAkD0BwDQBo6PwpQqAAAAAElFTkSuQmCC" InformativeScreenshot="ed59c625885bb04a5f6c3ce54c73f605.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/ePyBsQZUU0WMUaxB8zX1Iw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rappi México: Entregas a domicilio en minutos' /&gt;" SearchSteps="Selector" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[&quot;vNombre:&quot;+vNombre.ToString]" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="WNXZA64vQ0-jLSmBj79C9A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVDhPtZNNSsNQFIW7p6xFRJ1VHdnEhrbUH3QDgmuQglgQUYf+dAU6kmLRgUOxFIdVm7R8vvOeqSZ0EA1e+ODk3nMPL4+kRNjwDB3D2EBO5NWOpwCJWaY8dBQQZ5q/IVbArEFu/iGgWof6BjS3nRbS6kln/N8BGq7XYG8fbm7h4REOjxzS6mkmz4+gkn3Y2oWDFpycwkufaUWRIynN5JFXO2bXnaDWhMtriOMvp6u37p0lVfJcXLkde4Lk+Js7TM7OiXs93u+7vB63eVpeskh/mJ5m8sibvEbqDsZBlaHvM1gp87wwR39x3iI9WC0zDAImQZi5gyRgGhIyWvMNFaJKYLHa9LLLIh3wBxRQ+FMu/DMV+J0b3ifMG/ojFMBIrwAAAABJRU5ErkJggg==" InformativeScreenshot="609c42133e14fc7464cda8cc9d96b173.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/xPBNYWzl70OIcjD80AV7xg" Selector="&lt;html app='chrome.exe' title='Farmacias Benavides online a domicilio en Ciudad de México - México - Rappi'/&gt;" Url="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/cuidado-profesional-de-tu-sonrisa-y-mas/descuentos-exclusivos" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="586,51" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="628,1140" sap2010:WorkflowViewState.IdRef="Sequence_10">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Nueva pestaña" sap:VirtualizedContainerService.HintSize="586,1048" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" Version="V1">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="552,832" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExtractDataTable]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="510,738" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                    <ui:ForEachRow.Body>
+                      <ActivityAction x:TypeArguments="sd:DataRow">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476,617" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="0" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="GetRowItem_1" Row="[row]">
+                            <ui:GetRowItem.Value>
+                              <OutArgument x:TypeArguments="x:String">[vNombre]</OutArgument>
+                            </ui:GetRowItem.Value>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:GetRowItem>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'rappi'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="434,226" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[&quot;rappi &quot;+ vNombre]">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=rappi&amp;sxsrf=ALeKk00pZEm5grJ8-NnrNDcqsv2s_AkvTQ%3A1620757071910&amp;ei=T8qaYJ6NN9LGsQW215qQBw&amp;oq=rappi&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBQgAELEDMgUIABCxAzIICAAQsQMQgwEyCAgAELEDEIMBMgUIABCxAzIECAAQQzIFCAAQsQMyAggAMgUIABCxAzoICC4QsQMQgwE6BQguELEDOgIILjoECC4QQzoHCAAQsQMQQzoHCC4QsQMQQzoLCAAQsQMQxwEQrwFKBQg4EgExUO4UWNEYYJQaaABwAHgAgAGFAYgB_ASSAQMzLjOYAQCgAQGqAQdnd3Mtd2l6wAEB&amp;sclient=gws-wiz&amp;ved=0ahUKEwje8KbMnsLwAhVSY6wKHbarBnIQ4dUDCA4&amp;uact=5" ContentHash="WSeSfOTh3EqTMNZnj69mXg" DesignTimeRectangle="189, 140, 533, 39" ElementType="InputBox" FriendlyName="'rappi'" FullSelectorArgument="&lt;webctrl aria-role='combobox' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' tag='INPUT' type='text' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAhkAAAArCAYAAADVN5oEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHdSURBVHhe7dthasIwGIDhXaW3E7yN9CL1HnoNwUtkWdNqrWK6sQ+28DwQRjX2716+tB8JACCAyAAAQogMACCEyAAAQogMACCEyAAAQogMACCEyAAAQogMACCEyAAAQogMACCEyAAAQogMACCEyAAAQogMACDEH4qMaxr2Xdodr9M1APCfmWQAACFEBgAQYhEZ5biiPw5p13Wpy6s/T1+d+/H6vnZpuEzfZadD/uxwKn/nPfsh3/GuvsdxCQC05Cky1gFRAuNFVHR9Oj1c55UjopjutYiI+h6RAQAteY6MWwQU8wTiwSo81tExupSJyDwNqe8RGQDQkqfIePdP/jaNGNcqMtYhsrpffY/IAICW1CPj4XmMKSxeTTJEBgCwUImM8tmm45KngDilPofJ+8hY7hEZANCSSmSUCLi9ZTIZg2HTMxnf2SMyAKAl2yYZy1dNF8cnjw915nWbVEy/W0wu6ntEBgC0ZMODn2WaMYfFOI2Y3gqZ944BkUNkmEPia62ORup7RAYAtGQRGT83B8S7PNiyBwBoh8gAAEKIDAAgxK9EBgDAmsgAAEKIDAAghMgAAEKIDAAghMgAAEKIDAAghMgAAEKIDAAghMgAAEKIDAAghMgAAEKIDAAgQEqfUrxB+rOMrA0AAAAASUVORK5CYII=" InformativeScreenshot="cdfb0022f636a7c82ca836600642348e.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/-E5o2rlKqUOrxxzypE0-yA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='rappi - Buscar con Google' /&gt;" SearchSteps="Selector" />
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NClick ClickType="Single" DisplayName="Click 'PATH'" sap:VirtualizedContainerService.HintSize="434,166" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=rappi&amp;sxsrf=ALeKk00pZEm5grJ8-NnrNDcqsv2s_AkvTQ%3A1620757071910&amp;ei=T8qaYJ6NN9LGsQW215qQBw&amp;oq=rappi&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBQgAELEDMgUIABCxAzIICAAQsQMQgwEyCAgAELEDEIMBMgUIABCxAzIECAAQQzIFCAAQsQMyAggAMgUIABCxAzoICC4QsQMQgwE6BQguELEDOgIILjoECC4QQzoHCAAQsQMQQzoHCC4QsQMQQzoLCAAQsQMQxwEQrwFKBQg4EgExUO4UWNEYYJQaaABwAHgAgAGFAYgB_ASSAQMzLjOYAQCgAQGqAQdnd3Mtd2l6wAEB&amp;sclient=gws-wiz&amp;ved=0ahUKEwje8KbMnsLwAhVSY6wKHbarBnIQ4dUDCA4&amp;uact=5" ContentHash="uUyfyyTIOkuUr0i3yNjZPw" DesignTimeRectangle="822, 151, 17, 17" ElementType="Icon" FriendlyName="'PATH'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;span&amp;gt;svg&amp;gt;path' parentid='tsf' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;span&amp;gt;svg&amp;gt;path' parentid='tsf' tag='path' type='' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADxSURBVDhPvZM9DsIgFIA9m7vH0Fs4mmjiDXTQ2U1v0BN0d9HN3b9qVMyHfVhsoQSrX/JCgccX4NGW+gH/k653dzVaZao3Pan24KBb+oyHUJLOkosWuWKeXPNMN5a0KOQ73dz0OO3nnA8j5WiyyHXMkBww0uEyC9qF7Jh8F0banbyKUlcMroI8iufCSEkkQqjLjd4p+S6i77S/OOcjZYw0pLIhOWCkILsgeOTp9v1O6cucr/JgSaEorgq5Jqq/Pz/yVTYlKXA0FkvxOuOj7ssfJuMucaW0DkQ+cZQUfOJoKbjEX0lBxERjUkAmQmhEaqPUE+bEdRqMvOlnAAAAAElFTkSuQmCC" InformativeScreenshot="926d73ed64ca2d90550d85b00cffd26c.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/4So50ulhrUKDA4HDmN274w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='rappi - Buscar con Google' /&gt;" SearchSteps="Selector" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:ForEachRow.Body>
+                  </ui:ForEachRow>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="lq4Nj2usHkeyw7M1fMu1Zg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARHSURBVFhHvZddbBRVFMf7YrAq+OSbD6Kgb0qUUh60xq9VtA8k1EJrH1CsGIM+GLUmBA0kFi0WSMCHLcVCTMO2GmjFCiUFpH60sUjMEtIGLaAWama32w92dt2vOf7PndPd3M7sdmobf8k/M/fec8//zJ07s7NFXrEsawlUnclkmqEBaAxKisLS14yYKo6VafMHyR5A4hYoTh5BbAw6iLnLJc3cQZ7bkKQRSttp5w7mpqBdKKRY0noDE+7HxEuSZ94gVxA5l0n6wiDwYUwIyVyN9I0RMls/p4l33qDwi8+R4VtNxjOlFF7no/G3XyfzcBOlR/6UaB3kNHBYITbuyJU7zNOj12ly+/tkPL2KjKdKCgsxkx++p+bMhIvIuxIYuB0BjmWPn+qi0Atl7mYFFCp/nP45e0qy5IAH3w7nnsBAo8RkMY8cck3uVVMN2yWTDrwaxNYGFfGjpu12vnK3pKxIbRVFD+yj+DdHKd51DOf7KfJatRYztbueyLIkmw68UtqtQEeLjCl4s4Wef0xLyBqrWUuJ8/0S5SQx0EfhDeV0c/+n0pMfeDYrc5zfiYb2konufdNhPr7lZbKmpiQiP5YZlbPCwNPEKizm5a+WPoUVG6ZU9yKarLsna86PXGYiIhELB7zX8/I3S1uRuVpPqZ5blMx9d1FozUqKnzwuowsLvP1cwIC0FelffNkCWImjS4lSKRldWODdzwWMSVuR6r1bKyB9sUpG3Hnyo6hnnb2kXwi8DS4gKW1F6vQirYDM79tkxB03o3xq/VGz4gIS/2sBLecSMstmuoCwtBWOWxDcICPuuBnlU3u/YwXULdA34YVntQJGeh+kZGbum/CKkXEUcG7QsQfUJpzxGH6cNT/etZQeDayljuEeGfVOoC/pKGB0Qn81w9vPLyJtm1uxqxTrKab6jkdoZWCdkq/jFQrHxyVidm7GLarYa2rmG/0xGc0B70ouYAkq0Ub39O3Imk+rpvtdmkjM/ipO4iet7khcM2e1Oe+/icMd6vcAjYN2t82NqEFlX73kKKL8683Ue/28RDm5PH6NNnUGYDipmfNqxBKO5W9S5gxWYTk6tB1y4lqvo4BpVXz7FjVeaKH2yyfoy99O0mfBVnq1ZyuVBCrUeOmhOnrik7+yBXw/pH/XwisJz/vE3gadu2Q8yxdDnQ5zrypp3Uhlu392PPsMvHaKbQ7082f4RTskR/cfP+B21LiaFFJpWyUdCHZKlhzw+BWHW8VWB8uyDAH89aoxaoZo6097aFWbvcSzafOZD2gwMiyzcyD33zjcK3buIGCFWxEMb87Dg8doy3c7aE1nLa1ur1RX6uvYRLWnt6m9MBS5ItE6bI4LfEhsCiMrEZS58wa5eNkLX/lMUEQxJjZA//ljAHP5j+tOnLrfcy/IavA/Yn5xeIJjoSbM1R+1+YBki6H1SOyH+iEDSoj4nPv8iKlEDfYbblaKiv4FoeF/NqqvoEMAAAAASUVORK5CYII=" InformativeScreenshot="ef8ba51b970d52e03a5c57531e4024a7.png" Reference="MXU4QQsGLkWfl5ZOjlEQBQ/Y4KpQinfKku61jw0_z2i2w" Selector="&lt;html app='chrome.exe' title='rappi - Buscar con Google' /&gt;" Url="https://www.google.com/search?q=rappi&amp;sxsrf=ALeKk00pZEm5grJ8-NnrNDcqsv2s_AkvTQ%3A1620757071910&amp;ei=T8qaYJ6NN9LGsQW215qQBw&amp;oq=rappi&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBQgAELEDMgUIABCxAzIICAAQsQMQgwEyCAgAELEDEIMBMgUIABCxAzIECAAQQzIFCAAQsQMyAggAMgUIABCxAzoICC4QsQMQgwE6BQguELEDOgIILjoECC4QQzoHCAAQsQMQQzoHCC4QsQMQQzoLCAAQsQMQxwEQrwFKBQg4EgExUO4UWNEYYJQaaABwAHgAgAGFAYgB_ASSAQMzLjOYAQCgAQGqAQdnd3Mtd2l6wAEB&amp;sclient=gws-wiz&amp;ved=0ahUKEwje8KbMnsLwAhVSY6wKHbarBnIQ4dUDCA4&amp;uact=5" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

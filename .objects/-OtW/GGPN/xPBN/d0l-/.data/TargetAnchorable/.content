@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/1923270294-glow-dx-vacunas-farmacia-ciudad-de-mexico/s?store_type=glow_dx_vacunas&amp;query=Vacuna%20Influenza&amp;search_type=TYPED&amp;origin=general" ContentHash="B0ghMb_6y0GXzzX6so7ayg" DesignTimeRectangle="598, 202, 732, 49" ElementType="InputBox" FriendlyName="'Vacuna Influenza'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='glowdx online a domicilio en Ciudad de México - México - Rappi' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0jUGufXedZUuHdLH7J1VdAQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="76581942514302503b9381efe275fa59.png" xmlns="">0e7ebLinf_Uq36SGM2LG-nw</imageRef>
+</TargetAnchorable>

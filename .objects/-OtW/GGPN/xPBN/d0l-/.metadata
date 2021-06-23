@@ -1,0 +1,14 @@
+﻿{
+  "Id": "d0l-LZA5pEGP63cu59Jo-g",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/d0l-LZA5pEGP63cu59Jo-g",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/xPBNYWzl70OIcjD80AV7xg",
+  "Name": "Type Into 'Vacuna Influenza'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-05-11T18:50:42.5704651Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-05-11T18:50:42.5704651Z"
+}

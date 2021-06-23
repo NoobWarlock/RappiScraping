@@ -1,0 +1,14 @@
+﻿{
+  "Id": "4GE7nRn2zEmR4oLeWQh8iA",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/4GE7nRn2zEmR4oLeWQh8iA",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/xPBNYWzl70OIcjD80AV7xg",
+  "Name": "Click 'Pasillos'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-05-11T16:40:00.8817666Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-05-11T16:40:00.8817666Z"
+}

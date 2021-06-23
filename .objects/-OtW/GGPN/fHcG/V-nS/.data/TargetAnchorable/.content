@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/1923256267-farma-ya-ciudad-de-mexico" ContentHash="fOa4z3SWPUOvoYXO26epjg" DesignTimeRectangle="120, 452, 90, 32" ElementType="Text" FriendlyName="'Pasillos'" FullSelectorArgument="&lt;webctrl aaname=' Pasillos ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Pasillos ' tag='A' type='' check:text='Pasillos' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farma Ya online a domicilio en Ciudad de México - México - Rappi' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0xcmQWI-KNEGadryYLalpTg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="21b3863a631a8d86b2b810060360ac7c.png" xmlns="">0-TCEzy8OcEiFzU6Xq4VRoQ</imageRef>
+</TargetAnchorable>

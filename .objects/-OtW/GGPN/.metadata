@@ -1,0 +1,12 @@
+﻿{
+  "Id": "GGPN1PanDUqfQKnlCD2ong",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/GGPN1PanDUqfQKnlCD2ong",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/-OtWe1jpBU-5jtRQUbmgyQ",
+  "Name": "1.0.0",
+  "Type": "AppVersion",
+  "Created": "2021-04-20T15:43:01.5656779Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-20T15:43:01.5656779Z"
+}

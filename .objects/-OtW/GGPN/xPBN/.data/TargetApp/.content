@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="WNXZA64vQ0-jLSmBj79C9A" Selector="&lt;html app='chrome.exe' title='Farmacias Benavides online a domicilio en Ciudad de México - México - Rappi'/&gt;" Url="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/cuidado-profesional-de-tu-sonrisa-y-mas/descuentos-exclusivos" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0wbeJt1ZhVkacKq82VdAg7A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="609c42133e14fc7464cda8cc9d96b173.png" xmlns="">0SkWUpKd5-0u5II0xkyzLgg</imageRef>
+</TargetApp>

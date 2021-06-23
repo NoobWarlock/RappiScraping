@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515/catalogo" ContentHash="lTlPMLVpgUOtJNFThQ3B2A" DesignTimeRectangle="286, 210, 90, 32" ElementType="Text" FriendlyName="'Pasillos'" FullSelectorArgument="&lt;webctrl aaname=' Pasillos ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Pasillos ' tag='A' type='' check:text='Pasillos' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rappi México: Entregas a domicilio en minutos' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0TebDYSfFPECMwxYKx40z7g</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="acbc61116067f0fc55f4a764893cf014.png" xmlns="">0Aa9fUXrpiEu648FFIt2Vdw</imageRef>
+</TargetAnchorable>

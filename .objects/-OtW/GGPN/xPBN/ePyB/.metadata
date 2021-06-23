@@ -1,0 +1,17 @@
+﻿{
+  "Id": "ePyBsQZUU0WMUaxB8zX1Iw",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/ePyBsQZUU0WMUaxB8zX1Iw",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/xPBNYWzl70OIcjD80AV7xg",
+  "Name": "Click '50%OFF en'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-05-11T19:17:03.1893164Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-05-14T18:14:39.3934736Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="d8mRBVlJVUy38k_hQpcLZA" DesignTimeRectangle="29, 325, 1320, 1460" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-container&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;app-cpg-store&amp;gt;app-cpg-store-aisle-tree-page&amp;gt;ul' parentid='app-container' tag='UL' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farma Ya online a domicilio en Ciudad de México - México - Rappi' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="InformativeScreenshot" originalValue="e071e7b10f07f57aa00b4db1f0773dd9.png" xmlns="">0jJaBBs_Kp0uSkc3MvJ7SdQ</imageRef>
+</TargetAnchorable>

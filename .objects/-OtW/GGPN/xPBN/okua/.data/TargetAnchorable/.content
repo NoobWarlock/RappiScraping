@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/el-verdadero-ahorro-esta-en-farmacias-benavides/descuentos-exclusivos" ContentHash="dK1rp__YXEaJR7c3k3bpHQ" DesignTimeRectangle="31, 435, 354, 41" ElementType="Text" FriendlyName="'Descuentos Exclusivos'" FullSelectorArgument="&lt;webctrl aaname=' Descuentos Exclusivos ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Descuentos Exclusivos ' tag='A' type='' check:text='Descuentos Exclusivos' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farmacias Benavides online a domicilio en Ciudad de México - México - Rappi' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0U8Ehf_cfdkSehMBIGXbTOw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8d43c028ca500879a340b9c28e6489b2.png" xmlns="">0bnUH95K-vU-jVmE33uYT3Q</imageRef>
+</TargetAnchorable>

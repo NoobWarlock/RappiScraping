@@ -1,0 +1,17 @@
+﻿{
+  "Id": "g8isTp6k6kODK1_778nsCQ",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/g8isTp6k6kODK1_778nsCQ",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/fHcG4y4eNUaUYBi-bqnoVQ",
+  "Name": "Tabla Farmacia Pasillo",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-20T17:53:52.6268163Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-20T17:54:32.4367235Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

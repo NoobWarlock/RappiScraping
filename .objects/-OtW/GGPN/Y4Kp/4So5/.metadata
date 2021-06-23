@@ -1,0 +1,14 @@
+﻿{
+  "Id": "4So50ulhrUKDA4HDmN274w",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/4So50ulhrUKDA4HDmN274w",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/Y4KpQinfKku61jw0_z2i2w",
+  "Name": "Click 'PATH'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-05-11T18:28:24.7392804Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-05-11T18:28:24.7392804Z"
+}

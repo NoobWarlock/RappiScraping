@@ -1,0 +1,14 @@
+﻿{
+  "Id": "TSpJHN2OZ0O5E7Ocw90hZg",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/TSpJHN2OZ0O5E7Ocw90hZg",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/fHcG4y4eNUaUYBi-bqnoVQ",
+  "Name": "Click 'Farmacias'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-20T16:05:46.2721172Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-20T16:05:46.2721172Z"
+}

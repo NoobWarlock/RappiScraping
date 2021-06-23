@@ -1,0 +1,17 @@
+﻿{
+  "Id": "5sVLix3WQkyBiHr2ApHSTw",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/5sVLix3WQkyBiHr2ApHSTw",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/fHcG4y4eNUaUYBi-bqnoVQ",
+  "Name": "TablaFarmacias",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-20T15:55:40.0772471Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-20T15:56:06.1535224Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

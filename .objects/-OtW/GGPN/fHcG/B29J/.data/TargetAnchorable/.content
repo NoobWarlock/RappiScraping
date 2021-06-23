@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="0qchrj6p60yuRKjYuS4qCg" DesignTimeRectangle="29, 400, 360, 305" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-container&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;app-cpg-store&amp;gt;app-cpg-aisle&amp;gt;div&amp;gt;div&amp;gt;app-cpg-aisle-sidebar&amp;gt;div&amp;gt;ul' parentid='app-container' tag='UL' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rappi México: Entregas a domicilio en minutos' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="InformativeScreenshot" originalValue="cc187ad0dca2da7f80f4c5133eb9d40f.png" xmlns="">0YV7N5kC0aEqg-lHG5kPpLA</imageRef>
+</TargetAnchorable>

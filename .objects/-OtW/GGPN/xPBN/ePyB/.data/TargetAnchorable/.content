@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/el-verdadero-ahorro-esta-en-farmacias-benavides/descuentos-exclusivos" ContentHash="quPr9pgtEEaiN6Yk1BI9sQ" DesignTimeRectangle="459, 595, 136, 42" FriendlyName="'50%OFF en'" FullSelectorArgument="&lt;webctrl tag='H2' aaname='50%OFF en 2°U Sildenafil (100 Mg)' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' aaname='50%OFF en 2°U Sildenafil (100 Mg)' type='' check:text='50%OFF en 2°U Sildenafil (100 Mg)' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rappi México: Entregas a domicilio en minutos' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0axQihuUgZEauJifbtDr7Og</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ed59c625885bb04a5f6c3ce54c73f605.png" xmlns="">0s6Mtt1Bxm0uIg15_nu1CLQ</imageRef>
+</TargetAnchorable>

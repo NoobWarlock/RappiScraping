@@ -1,0 +1,14 @@
+﻿{
+  "Id": "Y4KpQinfKku61jw0_z2i2w",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/Y4KpQinfKku61jw0_z2i2w",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/GGPN1PanDUqfQKnlCD2ong",
+  "Name": "Use Browser Chrome Nueva pestañaasd",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2021-05-11T18:17:13.6315264Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-05-11T18:17:13.6315264Z"
+}

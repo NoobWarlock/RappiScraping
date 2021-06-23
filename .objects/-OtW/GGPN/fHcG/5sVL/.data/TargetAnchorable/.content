@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="e2t_fO56pUme6VNnEmsaBQ" DesignTimeRectangle="45, 245, 1288, 836" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-container&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;app-cpg-parent-store-page&amp;gt;div&amp;gt;app-cpg-store-type-items&amp;gt;ul' parentid='app-container' tag='UL' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farmacia con Servicio a Domicilio en | Rappi' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="InformativeScreenshot" originalValue="56fcb705478578c4bd1696777835b765.png" xmlns="">0SQ3pbaA2H0OIzIbYVVnV5g</imageRef>
+</TargetAnchorable>

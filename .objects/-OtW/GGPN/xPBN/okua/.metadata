@@ -1,0 +1,14 @@
+﻿{
+  "Id": "okuac4zDIUCUq48RRGQUMw",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/okuac4zDIUCUq48RRGQUMw",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/xPBNYWzl70OIcjD80AV7xg",
+  "Name": "Click 'Descuentos Exclusivos'asd",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-05-11T16:42:59.1528948Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-05-11T16:42:59.1528948Z"
+}

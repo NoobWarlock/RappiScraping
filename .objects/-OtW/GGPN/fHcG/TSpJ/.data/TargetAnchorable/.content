@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/tipo/farmatodo?storeGroup=Farmacias" ContentHash="ibSTkHgiL0SXdBPSW04x6w" DesignTimeRectangle="229, 410, 76, 21" ElementType="Text" FriendlyName="'Farmacias'" FullSelectorArgument="&lt;webctrl aaname='Farmacias' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Farmacias' tag='A' type='' check:text='Farmacias' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Farmacia con Servicio a Domicilio en | Rappi' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0va00DOoyZU2K_84sg4aKTQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8ba9e219843ed86389423b3def4a3ce7.png" xmlns="">0LS8M1QcnSUilU3ZzHr3T8w</imageRef>
+</TargetAnchorable>

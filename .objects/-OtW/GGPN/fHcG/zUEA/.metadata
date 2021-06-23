@@ -1,0 +1,14 @@
+﻿{
+  "Id": "zUEAjsQCM0KCwT2NhEkF9g",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/zUEAjsQCM0KCwT2NhEkF9g",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/fHcG4y4eNUaUYBi-bqnoVQ",
+  "Name": "Tabla Productos",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T17:02:55.6198743Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T17:02:55.6198743Z"
+}

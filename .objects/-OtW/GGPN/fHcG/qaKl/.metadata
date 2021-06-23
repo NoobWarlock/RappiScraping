@@ -1,0 +1,14 @@
+﻿{
+  "Id": "qaKlKULkpEKEKyYBve0v6w",
+  "Reference": "MXU4QQsGLkWfl5ZOjlEQBQ/qaKlKULkpEKEKyYBve0v6w",
+  "ParentRef": "MXU4QQsGLkWfl5ZOjlEQBQ/fHcG4y4eNUaUYBi-bqnoVQ",
+  "Name": "Keyboard Shortcuts 'Farmacias'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-20T16:42:38.5869425Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-20T16:42:38.5869425Z"
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/el-verdadero-ahorro-esta-en-farmacias-benavides/descuentos-exclusivos" ContentHash="mF9EF7uB_kirg2HSTfEzdw" DesignTimeRectangle="933, 347, 120, 21" ElementType="Text" FriendlyName="'Orden alfabético'" FullSelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' type='' check:text='Orden alfabético' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Descuentos Exclusivos en Farmacias Benavides a domicilio con Rappi' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0KxFuk_W4SEGhfisXvLrSZA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="d4539363c44417a0de856fe914edb09a.png" xmlns="">0D7Wz2bZd_UK7cvdUrfBaxg</imageRef>
+</TargetAnchorable>

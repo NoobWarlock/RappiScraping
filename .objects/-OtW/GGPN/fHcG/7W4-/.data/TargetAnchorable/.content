@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.rappi.com.mx/tiendas/990008515-farmacias-benavides-ciudad-de-mexico/belleza-y-maquillaje/cuidado-facial" ContentHash="j-g36weo1ESly2Qh9tp94A" DesignTimeRectangle="933, 347, 120, 21" ElementType="Text" FriendlyName="'Orden alfabético'" FullSelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Orden alfabético' tag='SPAN' type='' check:text='Orden alfabético' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cuidado facial en Farmacias Benavides a domicilio con Rappi' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0fsbnk9dA2EGabx6a1UnIiQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="f726446c85133c921ce2d6729e2f6b4d.png" xmlns="">0at48usOuyUSfhFlvLRPqow</imageRef>
+</TargetAnchorable>
